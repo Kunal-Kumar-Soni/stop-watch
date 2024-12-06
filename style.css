@@ -1,0 +1,162 @@
+/* General Reset and Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: #3c97ffe5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* HTML Font Size */
+html {
+  font-size: 10px;
+}
+
+/* Section Styling */
+section {
+  text-align: center;
+  margin: 0 auto;
+  width: 80rem;
+  background-color: #eaf3fa;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Heading Styling */
+section h1 {
+  margin: 5rem -3rem 3rem -3rem;
+  padding: 1rem 4rem;
+  background-color: #002657f0;
+  font-size: 10rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* Time Box Styling */
+section .time-box {
+  margin: 0rem -3rem;
+  background-color: #3c97ffee;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* Time Text Styling */
+section .time-box .time {
+  font-size: 10rem;
+  font-weight: 600;
+}
+
+/* Button Box Styling */
+section .btn-box {
+  display: flex;
+  justify-content: space-around;
+  margin-block: 7rem 5rem;
+}
+
+/* Button Styling */
+section .btn-box .btn {
+  font-size: 4rem;
+  font-weight: 500;
+  padding: 0.5rem 5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/* Active Button Styling */
+section .btn-box .btn:active {
+  scale: 0.95;
+}
+
+/* Pause Button Styling */
+section .btn-box .pause {
+  background-color: #dbe9ff;
+  color: #3c98ff;
+}
+
+/* Start Button Styling */
+section .btn-box .start {
+  background-color: #3c97ff;
+  color: #dbe9ff;
+}
+
+/* Reset Button Styling */
+section .btn-box .reset {
+  background-color: #dbe9ff;
+  color: #3c98ff;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 870px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  section .btn-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  section .btn-box .btn {
+    width: 50%;
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 520px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 440px) {
+  html {
+    font-size: 4.5px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 4px;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 3.5px;
+  }
+}
